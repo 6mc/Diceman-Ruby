@@ -1,7 +1,15 @@
+puts "kac tane deger gireceginizi biliyorsaniz '1' degerini giriniz";
+bir=gets.to_i;
+
+if bir==1
+load 'test.rb'
+
+else
 puts "degerleri giriniz";
 puts "degerleriniz bitince '0' giriniz";
 
-load 'test.rb'
+
+
 
 premium=1;
 
@@ -246,4 +254,5 @@ end
 puts arr.pop;
 y=gets.to_s;
 exit();
+end
 end
